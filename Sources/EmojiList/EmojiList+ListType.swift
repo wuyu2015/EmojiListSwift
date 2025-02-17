@@ -18,6 +18,11 @@ extension EmojiList {
         case plantBasic
         case sportAll
         case sportBasic
+        case sportSkinTone1
+        case sportSkinTone2
+        case sportSkinTone3
+        case sportSkinTone4
+        case sportSkinTone5
         case transportAll
         case transportBasic
         case weatherAll
