@@ -16,5 +16,7 @@ extension EmojiList {
         case householdBasic
         case plantAll
         case plantBasic
+        case transportAll
+        case transportBasic
     }
 }
