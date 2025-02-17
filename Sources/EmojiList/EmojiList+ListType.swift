@@ -3,6 +3,8 @@ extension EmojiList {
         case basic
         case allWithoutSkinTones
         case all
+        case clothingBasic
+        case clothingAll
         case countryFlag
         case faceBasic
         case faceAll

@@ -5,6 +5,10 @@ extension EmojiList {
             return basics.shuffled()
         case .allWithoutSkinTones:
             return allWithoutSkinTones.shuffled()
+        case .clothingBasic:
+            return clothingBasics.shuffled()
+        case .clothingAll:
+            return clothingAll.shuffled()
         case .countryFlag:
             return countryFlags.shuffled()
         case .faceBasic:
@@ -27,15 +31,19 @@ extension EmojiList {
         case .allWithoutSkinTones:
             return allWithoutSkinTones[Int.random(in: 0..<allWithoutSkinTones.count)]
         case .countryFlag:
-            return countryFlags[Int.random(in: 0..<allWithoutSkinTones.count)]
+            return countryFlags[Int.random(in: 0..<countryFlags.count)]
+        case .clothingBasic:
+            return clothingBasics[Int.random(in: 0..<clothingBasics.count)]
+        case .clothingAll:
+            return clothingAll[Int.random(in: 0..<clothingAll.count)]
         case .faceBasic:
-            return faceBasics[Int.random(in: 0..<allWithoutSkinTones.count)]
+            return faceBasics[Int.random(in: 0..<faceBasics.count)]
         case .faceAll:
-            return faceAll[Int.random(in: 0..<allWithoutSkinTones.count)]
+            return faceAll[Int.random(in: 0..<faceAll.count)]
         case .foodBasic:
-            return foodBasics[Int.random(in: 0..<allWithoutSkinTones.count)]
+            return foodBasics[Int.random(in: 0..<foodBasics.count)]
         case .foodAll:
-            return foodAll[Int.random(in: 0..<allWithoutSkinTones.count)]
+            return foodAll[Int.random(in: 0..<foodAll.count)]
         case .all:
             return all[Int.random(in: 0..<all.count)]
         }
