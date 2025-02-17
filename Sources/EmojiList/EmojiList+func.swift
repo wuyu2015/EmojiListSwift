@@ -11,6 +11,10 @@ extension EmojiList {
             return faceBasics.shuffled()
         case .faceAll:
             return faceAll.shuffled()
+        case .foodBasic:
+            return foodBasics.shuffled()
+        case .foodAll:
+            return foodAll.shuffled()
         case .all:
             return all.shuffled()
         }
@@ -28,6 +32,10 @@ extension EmojiList {
             return faceBasics[Int.random(in: 0..<allWithoutSkinTones.count)]
         case .faceAll:
             return faceAll[Int.random(in: 0..<allWithoutSkinTones.count)]
+        case .foodBasic:
+            return foodBasics[Int.random(in: 0..<allWithoutSkinTones.count)]
+        case .foodAll:
+            return foodAll[Int.random(in: 0..<allWithoutSkinTones.count)]
         case .all:
             return all[Int.random(in: 0..<all.count)]
         }

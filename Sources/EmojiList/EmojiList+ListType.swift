@@ -6,5 +6,7 @@ extension EmojiList {
         case countryFlag
         case faceBasic
         case faceAll
+        case foodBasic
+        case foodAll
     }
 }
