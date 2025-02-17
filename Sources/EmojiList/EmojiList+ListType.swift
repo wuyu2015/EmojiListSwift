@@ -1,16 +1,18 @@
 extension EmojiList {
     public enum ListType {
-        case basic
-        case allWithoutSkinTones
         case all
-        case clothingBasic
+        case allWithoutSkinTones
+        case animalAll
+        case animalBasic
+        case basic
         case clothingAll
+        case clothingBasic
         case countryFlag
-        case faceBasic
         case faceAll
-        case foodBasic
+        case faceBasic
         case foodAll
-        case householdBasic
+        case foodBasic
         case householdAll
+        case householdBasic
     }
 }

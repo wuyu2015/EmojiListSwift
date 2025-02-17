@@ -5,6 +5,10 @@ extension EmojiList {
             return basics.shuffled()
         case .allWithoutSkinTones:
             return allWithoutSkinTones.shuffled()
+        case .animalBasic:
+            return animalBasics.shuffled()
+        case .animalAll:
+            return animalAll.shuffled()
         case .clothingBasic:
             return clothingBasics.shuffled()
         case .clothingAll:
@@ -34,6 +38,10 @@ extension EmojiList {
             return basics[Int.random(in: 0..<basics.count)]
         case .allWithoutSkinTones:
             return allWithoutSkinTones[Int.random(in: 0..<allWithoutSkinTones.count)]
+        case .animalBasic:
+            return animalBasics[Int.random(in: 0..<animalBasics.count)]
+        case .animalAll:
+            return animalAll[Int.random(in: 0..<foodAll.count)]
         case .countryFlag:
             return countryFlags[Int.random(in: 0..<countryFlags.count)]
         case .clothingBasic:
