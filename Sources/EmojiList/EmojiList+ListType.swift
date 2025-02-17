@@ -18,5 +18,6 @@ extension EmojiList {
         case plantBasic
         case transportAll
         case transportBasic
+        case weatherAll
     }
 }

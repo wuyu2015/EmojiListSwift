@@ -35,6 +35,8 @@ extension EmojiList {
             return transportBasics.shuffled()
         case .transportAll:
             return transportAll.shuffled()
+        case .weatherAll:
+            return weatherAll.shuffled()
         case .all:
             return all.shuffled()
         }
@@ -76,6 +78,8 @@ extension EmojiList {
             return transportBasics[Int.random(in: 0..<transportBasics.count)]
         case .transportAll:
             return plantAll[Int.random(in: 0..<transportAll.count)]
+        case .weatherAll:
+            return weatherAll[Int.random(in: 0..<weatherAll.count)]
         case .all:
             return all[Int.random(in: 0..<all.count)]
         }
