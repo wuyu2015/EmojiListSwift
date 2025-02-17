@@ -68,7 +68,7 @@ This project is licensed under the MIT License.
 
 # EmojiList 中文说明
 
-**EmojiList** 是一个 Swift 包，提供两种表情符号集合：**基本** 和 **全部**。
+**EmojiList** 是一个 Swift 包，提供两种表情符号集合：**基本**、**无肤色** 和 **全部**。
 
 ## 特性
 
