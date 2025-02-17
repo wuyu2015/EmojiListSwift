@@ -10,5 +10,7 @@ extension EmojiList {
         case faceAll
         case foodBasic
         case foodAll
+        case householdBasic
+        case householdAll
     }
 }

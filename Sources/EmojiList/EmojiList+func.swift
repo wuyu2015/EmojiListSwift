@@ -19,6 +19,10 @@ extension EmojiList {
             return foodBasics.shuffled()
         case .foodAll:
             return foodAll.shuffled()
+        case .householdBasic:
+            return householdBasics.shuffled()
+        case .householdAll:
+            return householdAll.shuffled()
         case .all:
             return all.shuffled()
         }
@@ -44,6 +48,10 @@ extension EmojiList {
             return foodBasics[Int.random(in: 0..<foodBasics.count)]
         case .foodAll:
             return foodAll[Int.random(in: 0..<foodAll.count)]
+        case .householdBasic:
+            return householdBasics[Int.random(in: 0..<householdBasics.count)]
+        case .householdAll:
+            return householdAll[Int.random(in: 0..<householdAll.count)]
         case .all:
             return all[Int.random(in: 0..<all.count)]
         }
