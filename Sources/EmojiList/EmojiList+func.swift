@@ -31,6 +31,10 @@ extension EmojiList {
             return plantBasics.shuffled()
         case .plantAll:
             return plantAll.shuffled()
+        case .sportBasic:
+            return sportBasics.shuffled()
+        case .sportAll:
+            return sportAll.shuffled()
         case .transportBasic:
             return transportBasics.shuffled()
         case .transportAll:
@@ -74,6 +78,10 @@ extension EmojiList {
             return plantBasics[Int.random(in: 0..<plantBasics.count)]
         case .plantAll:
             return plantAll[Int.random(in: 0..<plantAll.count)]
+        case .sportBasic:
+            return sportBasics[Int.random(in: 0..<sportBasics.count)]
+        case .sportAll:
+            return sportAll[Int.random(in: 0..<sportAll.count)]
         case .transportBasic:
             return transportBasics[Int.random(in: 0..<transportBasics.count)]
         case .transportAll:

@@ -16,6 +16,8 @@ extension EmojiList {
         case householdBasic
         case plantAll
         case plantBasic
+        case sportAll
+        case sportBasic
         case transportAll
         case transportBasic
         case weatherAll
