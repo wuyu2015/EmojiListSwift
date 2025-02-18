@@ -12,7 +12,7 @@
 - **EmojiList.Food**: A list of food emojis.
 - **EmojiList.Household**: A list of household items.
 - **EmojiList.Plants**: A list of plant emojis.
-- **EmojiList.Pure**: An emoji list focused on aesthetics by removing LGBTQ+ content, iOS 6 style icons, multiple skin tones, and other icons lacking visual appeal.
+- **EmojiList.Pure**: An emoji list that removes LGBTQ+ content and multiple skin tones.
 - **EmojiList.SkinTones1**: A list of Light skin tone emojis.
 - **EmojiList.SkinTones2**: A list of Medium-Light skin tone emojis.
 - **EmojiList.SkinTones3**: A list of Medium skin tone emojis.
@@ -52,7 +52,7 @@ This project is licensed under the MIT License.
 - **EmojiList.Food**：食物列表
 - **EmojiList.Household**：居家物品列表
 - **EmojiList.Plants**：植物列表
-- **EmojiList.Pure**：一个移除 LGBTQ+ 内容、iOS 6 风格图标、多种肤色和其他缺乏美感的图标后，专注于美观的 Emoji 列表
+- **EmojiList.Pure**：一个移除 了LGBTQ+ 内容、多种肤色的 Emoji 列表
 - **EmojiList.SkinTones1**：Light 肤色列表
 - **EmojiList.SkinTones2**：Medium-Light 肤色列表
 - **EmojiList.SkinTones3**：Medium 肤色列表
