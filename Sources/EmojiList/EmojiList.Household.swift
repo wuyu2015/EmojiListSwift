@@ -1,11 +1,11 @@
-extension EmojiList {
-    public static let householdBasics: [Character] = [
+extension EmojiList.Household {
+    public static let basic: [Character] = [
         "🎮", "📺", "🚪", "🚰", "🚽", "🚿", "🛁", "🛋️", "🛏️", "🛒",
         "🧯", "🧴", "🧷", "🧹", "🧺", "🧻", "🧼", "🧽",
         "🎄", "🧸", "🏮", "📚",
     ]
     
-    public static let householdAll: [Character] = [
+    public static let all: [Character] = [
         "🎮", "📺", "🚪", "🚰", "🚽", "🚿", "🛁", "🛋️", "🛏️", "🛒",
         "🛗", "🧯", "🧴", "🧷", "🧹", "🧺", "🧻", "🧼", "🧽", "🪑",
         "🪒", "🪞", "🪟", "🪠", "🪣", "🪤", "🪥", "🫧",

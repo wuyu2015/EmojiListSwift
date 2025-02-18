@@ -3,123 +3,165 @@ import XCTestDelayPrinter
 @testable import EmojiList
 
 final class PrintTests: XCTestCase {
-    func testPrint() {
-        pr(EmojiList.basics)
+    
+    private func c(_ arr: [Character]) -> Int {
+        pr(arr)
+        return arr.count
     }
     
-    func testPrintAll() {
-        pr(EmojiList.all)
+    func testAll() {
+        XCTAssertEqual(c(EmojiList.all), 3790)
     }
     
-    func testPrintAnimalAll() {
-        pr(EmojiList.animalAll)
+    func testBasic() {
+        XCTAssertEqual(c(EmojiList.basic), 1650)
     }
     
-    func testPrintAnimalBasic() {
-        pr(EmojiList.animalBasics)
+    func testAllWithoutSkinTones() {
+        XCTAssertEqual(c(EmojiList.allWithoutSkinTones), 1915)
     }
     
-    func testPrintBeautifulAll() {
-        pr(EmojiList.beautifulAll.shuffled())
+    func testAnimalsAll() {
+        pr(EmojiList.Animals.all)
     }
     
-    func testPrintBeautifulBasic() {
-        pr(EmojiList.beautifulBasics.shuffled())
+    func testAnimalsBasic() {
+        pr(EmojiList.Animals.basic.shuffled())
     }
     
-    func testPrintClothingAll() {
-        pr(EmojiList.clothingAll.shuffled())
+    func testClothingAll() {
+        pr(EmojiList.Clothing.all)
     }
     
-    func testPrintClothingBasic() {
-        pr(EmojiList.clothingBasics.shuffled())
+    func testClothingBasic() {
+        pr(EmojiList.Clothing.basic.shuffled())
     }
     
-    func testPrintContryFlags() {
-        pr(EmojiList.countryFlags)
+    func testContryFlagsAll() {
+        XCTAssertEqual(c(EmojiList.CountryFlags.all), 262)
     }
     
-    func testPrintFaceAll() {
-        pr(EmojiList.faceAll.shuffled())
+    func testContryFlagsBasic() {
+        XCTAssertEqual(c(EmojiList.CountryFlags.basic), EmojiList.CountryFlags.all.count - 1)
     }
     
-    func testPrintFaceBasic() {
-        pr(EmojiList.faceBasics.shuffled())
+    func testFacesAll() {
+        pr(EmojiList.Faces.all)
     }
     
-    func testPrintHouseholdAll() {
-        pr(EmojiList.householdAll.shuffled())
+    func testFacesBasic() {
+        pr(EmojiList.Faces.basic.shuffled())
     }
     
-    func testPrintHouseholdBasic() {
-        pr(EmojiList.householdBasics.shuffled())
+    func testHouseholdAll() {
+        pr(EmojiList.Household.all)
     }
     
-    func testPrintPlantAll() {
-        pr(EmojiList.plantAll.shuffled())
+    func testHouseholdBasic() {
+        pr(EmojiList.Household.basic.shuffled())
     }
     
-    func testPrintPlantBasic() {
-        pr(EmojiList.plantBasics.shuffled())
+    func testPlantsAll() {
+        pr(EmojiList.Plants.all)
     }
     
-    func testPrintSkinTone1() {
-        pr(EmojiList.skinTones1.shuffled())
+    func testPlantsBasic() {
+        pr(EmojiList.Plants.basic.shuffled())
     }
     
-    func testPrintSkinTone2() {
-        pr(EmojiList.skinTones2.shuffled())
+    func testPureAll() {
+        pr(EmojiList.Pure.all)
     }
     
-    func testPrintSkinTone3() {
-        pr(EmojiList.skinTones3.shuffled())
+    func testPureBasic() {
+        pr(EmojiList.Pure.basic.shuffled())
     }
     
-    func testPrintSkinTone4() {
-        pr(EmojiList.skinTones4.shuffled())
+    func testSkinTones1All() {
+        XCTAssertEqual(c(EmojiList.SkinTones1.all), 337)
     }
     
-    func testPrintSkinTone5() {
-        pr(EmojiList.skinTones5.shuffled())
+    func testSkinTones1Basic() {
+        XCTAssertEqual(c(EmojiList.SkinTones1.basic.shuffled()), 232)
     }
     
-    func testPrintSportAll() {
-        pr(EmojiList.sportAll.shuffled())
+    func testSkinTones2All() {
+        XCTAssertEqual(c(EmojiList.SkinTones2.all), EmojiList.SkinTones1.all.count)
     }
     
-    func testPrintSportBasic() {
-        pr(EmojiList.sportBasics.shuffled())
+    func testSkinTones2Basic() {
+        XCTAssertEqual(c(EmojiList.SkinTones2.basic.shuffled()), EmojiList.SkinTones1.basic.count)
     }
     
-    func testPrintSportSkinTone1() {
-        pr(EmojiList.sportSkinTone1.shuffled())
+    func testSkinTones3All() {
+        XCTAssertEqual(c(EmojiList.SkinTones3.all), EmojiList.SkinTones1.all.count)
     }
     
-    func testPrintSportSkinTone2() {
-        pr(EmojiList.sportSkinTone2.shuffled())
+    func testSkinTones3Basic() {
+        XCTAssertEqual(c(EmojiList.SkinTones3.basic.shuffled()), EmojiList.SkinTones1.basic.count)
     }
     
-    func testPrintSportSkinTone3() {
-        pr(EmojiList.sportSkinTone3.shuffled())
+    func testSkinTones4All() {
+        XCTAssertEqual(c(EmojiList.SkinTones4.all), EmojiList.SkinTones1.all.count)
     }
     
-    func testPrintSportSkinTone4() {
-        pr(EmojiList.sportSkinTone4.shuffled())
+    func testSkinTones4Basic() {
+        XCTAssertEqual(c(EmojiList.SkinTones4.basic.shuffled()), EmojiList.SkinTones1.basic.count)
     }
     
-    func testPrintSportSkinTone5() {
-        pr(EmojiList.sportSkinTone5.shuffled())
+    func testSkinTones5All() {
+        XCTAssertEqual(c(EmojiList.SkinTones5.all), EmojiList.SkinTones1.all.count)
     }
     
-    func testPrintTransportAll() {
-        pr(EmojiList.transportAll.shuffled())
+    func testSkinTones5Basic() {
+        XCTAssertEqual(c(EmojiList.SkinTones5.basic.shuffled()), EmojiList.SkinTones1.basic.count)
     }
     
-    func testPrintTransportBasics() {
-        pr(EmojiList.transportBasics.shuffled())
+    func testSportsAll() {
+        pr(EmojiList.Sports.all)
     }
     
-    func testPrintWeatherAll() {
-        pr(EmojiList.weatherAll.shuffled())
+    func testSportBasic() {
+        pr(EmojiList.Sports.basic.shuffled())
+    }
+    
+    func testSportsSkinTones0() {
+        XCTAssertEqual(c(EmojiList.Sports.skinTones0), 39)
+    }
+    
+    func testSportsSkinTones1() {
+        XCTAssertEqual(c(EmojiList.Sports.skinTones1), EmojiList.Sports.skinTones0.count)
+    }
+    
+    func testSportSkinTones2() {
+        XCTAssertEqual(c(EmojiList.Sports.skinTones2), EmojiList.Sports.skinTones0.count)
+    }
+    
+    func testSportSkinTones3() {
+        XCTAssertEqual(c(EmojiList.Sports.skinTones3), EmojiList.Sports.skinTones0.count)
+    }
+    
+    func testSportSkinTones4() {
+        XCTAssertEqual(c(EmojiList.Sports.skinTones4), EmojiList.Sports.skinTones0.count)
+    }
+    
+    func testSportSkinTones5() {
+        XCTAssertEqual(c(EmojiList.Sports.skinTones5), EmojiList.Sports.skinTones0.count)
+    }
+    
+    func testTransportsAll() {
+        pr(EmojiList.Transports.all.shuffled())
+    }
+    
+    func testTransportsBasics() {
+        pr(EmojiList.Transports.basic.shuffled())
+    }
+    
+    func testWeatherAll() {
+        XCTAssertEqual(c(EmojiList.Weather.all), 34)
+    }
+    
+    func testWeatherBasic() {
+        XCTAssertEqual(c(EmojiList.Weather.basic), 34)
     }
 }
