@@ -1,16 +1,25 @@
 # EmojiList
 
-**EmojiList** is a Swift package that provides three main categories of emoji collections: **basic**, **all without skin tones**, and **all**. You can easily access, shuffle, or get a random emoji from any of these lists.
+**EmojiList** is a very simple Swift package that provides arrays of `Character` representing different types and styles of emojis:
 
-## Features
-
-- **EmojiList.basics**: A predefined set of essential emojis.
-- **EmojiList.allWithoutSkinTones**: A collection of emojis without any skin tone variations.
-- **EmojiList.all**: A collection of all emojis, including those with skin tone variations.
-
-
-- **EmojiList.shuffled(listType: ListType)**: Get a shuffled version of the emoji list.
-- **EmojiList.random(listType: ListType)**: Retrieve a random emoji from any list.
+- **EmojiList.all**: A complete list of all emojis (based on the latest UNICODE)
+- **EmojiList.basics**: A basic list of emojis (based on UNICODE 12.0)
+- **EmojiList.allWithoutSkinTones**: A list of all emojis without skin tone variations
+- **EmojiList.animal**: A list of animal emojis
+- **EmojiList.clothing**: A list of clothing emojis
+- **EmojiList.countryFlags**: A list of country flags
+- **EmojiList.face**: A list of smiley faces and animal faces
+- **EmojiList.food**: A list of food emojis
+- **EmojiList.household**: A list of household items
+- **EmojiList.plant**: A list of plant emojis
+- **EmojiList.skinTones1**: A list of Light skin tone emojis
+- **EmojiList.skinTones2**: A list of Medium-Light skin tone emojis
+- **EmojiList.skinTones3**: A list of Medium skin tone emojis
+- **EmojiList.skinTones4**: A list of Medium-Dark skin tone emojis
+- **EmojiList.skinTones5**: A list of Dark skin tone emojis
+- **EmojiList.sport**: A list of sports emojis
+- **EmojiList.transport**: A list of transportation emojis
+- **EmojiList.weather**: A list of weather emojis
 
 ## Installation
 
@@ -22,44 +31,6 @@ dependencies: [
 ]
 ```
 
-## Usage
-
-### Accessing Emoji Lists
-
-You can access the predefined emoji lists like this:
-
-```swift
-let basicEmojis = EmojiList.basics
-let allWithoutSkinTonesEmojis = EmojiList.allWithoutSkinTones
-let allEmojis = EmojiList.all
-```
-
-### Shuffling Emoji Lists
-
-To get a shuffled version of the basic emoji list, all without skin tones, or the full emoji list:
-
-```swift
-let shuffledBasic = EmojiList.shuffled()
-let shuffledAllWithoutSkinTones = EmojiList.shuffled(type: .allWithoutSkinTones)
-let shuffledAll = EmojiList.shuffled(type: .all)
-```
-
-### Getting a Random Emoji
-
-To get a random emoji from the basic, all without skin tones, or all emoji list:
-
-```swift
-let randomBasicEmoji = EmojiList.random()
-let randomAllWithoutSkinTonesEmoji = EmojiList.random(type: .allWithoutSkinTones)
-let randomAllEmoji = EmojiList.random(type: .all)
-```
-
-### Enum Options
-
-- `.basic`: Basic emoji list.
-- `.allWithoutSkinTones`: All emojis without skin tone variations.
-- `.all`: All emojis, including those with skin tone variations.
-
 ## License
 
 This project is licensed under the MIT License.
@@ -68,17 +39,26 @@ This project is licensed under the MIT License.
 
 # EmojiList 中文说明
 
-**EmojiList** 是一个 Swift Package，提供三种表情符号集合：**基本**、**无肤色** 和 **全部**。
+**EmojiList** 是一个非常简单的 Swift Package，提供 Emoji 的各种不同类型风格的 `Character` 数组：
 
-## 特性
-
-- **EmojiList.basics**：基本 Emoji 列表
+- **EmojiList.all**：全部 Emoji 列表（基于最新的 UNICODE）
+- **EmojiList.basics**：基本 Emoji 列表（基于 UNICODE 12.0）
 - **EmojiList.allWithoutSkinTones**：不带肤色变体的全部 Emoji 列表
-- **EmojiList.all**：全部 Emoji 列表
-
-
-- **EmojiList.shuffled(listType: ListType)**：返回 Emoji 列表的随机排列
-- **EmojiList.random(listType: ListType)**：返回一个随机 Emoji
+- **EmojiList.animal**：动物列表
+- **EmojiList.clothing**：服饰列表
+- **EmojiList.countryFlags**：国旗列表
+- **EmojiList.face**：小黄脸和动物脸列表
+- **EmojiList.food**：食物列表
+- **EmojiList.household**：居家物品列表
+- **EmojiList.plant**：植物列表
+- **EmojiList.skinTones1**：Light 肤色列表
+- **EmojiList.skinTones2**：Medium-Light 肤色列表
+- **EmojiList.skinTones3**：Medium 肤色列表
+- **EmojiList.skinTones4**：Medium-Dark 肤色列表
+- **EmojiList.skinTones5**：Dark 肤色列表
+- **EmojiList.sport**：体育运动列表
+- **EmojiList.transport**：交通工具列表
+- **EmojiList.weather**：天气列表
 
 ## 安装
 
@@ -89,38 +69,6 @@ dependencies: [
     .package(url: "https://github.com/wuyu2015/EmojiListSwift.git", from: "1.0.0")
 ]
 ```
-
-## 使用
-
-### 表情符号列表
-
-```swift
-let basicEmojis = EmojiList.basics
-let allWithoutSkinTonesEmojis = EmojiList.allWithoutSkinTones
-let allEmojis = EmojiList.all
-```
-
-### Emoji 列表的随机排列
-
-```swift
-let shuffledBasic = EmojiList.shuffled()
-let shuffledAllWithoutSkinTones = EmojiList.shuffled(type: .allWithoutSkinTones)
-let shuffledAll = EmojiList.shuffled(type: .all)
-```
-
-### 获取一个随机 Emoji
-
-```swift
-let randomBasicEmoji = EmojiList.random()
-let randomAllWithoutSkinTonesEmoji = EmojiList.random(type: .allWithoutSkinTones)
-let randomAllEmoji = EmojiList.random(type: .all)
-```
-
-### 枚举选项
-
-- `.basic`：基本 Emoji 列表
-- `.allWithoutSkinTones`：不带肤色变体的全部 Emoji 列表
-- `.all`：全部 Emoji 列表
 
 ## 许可证
 
