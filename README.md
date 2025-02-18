@@ -29,7 +29,7 @@ To integrate EmojiList into your Swift project, add the following line to your `
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/wuyu2015/EmojiListSwift.git", from: "1.0.0")
+    .package(url: "https://github.com/wuyu2015/EmojiListSwift.git", from: "1.0.3")
 ]
 ```
 
