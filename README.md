@@ -5,6 +5,7 @@
 - **EmojiList.all**: A complete list of all emojis (based on the latest UNICODE).
 - **EmojiList.basics**: A basic list of emojis (based on UNICODE 12.0).
 - **EmojiList.allWithoutSkinTones**: A list of all emojis without skin tone variations.
+- **EmojiList.Classic**: Official categories.
 - **EmojiList.Animals**: A list of animal emojis.
 - **EmojiList.Clothing**: A list of clothing emojis.
 - **EmojiList.CountryFlags**: A list of country flags.
@@ -32,6 +33,15 @@ dependencies: [
 ]
 ```
 
+### Or Install Using Xcode
+
+1. Open your Xcode project.
+2. Select **File** -> **Swift Packages** -> **Add Package Dependency**.
+3. In the popup window, enter the EmojiList GitHub repository URL: `https://github.com/wuyu2015/EmojiListSwift.git`.
+4. Choose the desired version (e.g., 1.0.3) and complete the installation.
+
+Now, you can use EmojiList in your project.
+
 ## License
 
 This project is licensed under the MIT License.
@@ -45,6 +55,7 @@ This project is licensed under the MIT License.
 - **EmojiList.all**：全部 Emoji 列表（基于最新的 UNICODE）
 - **EmojiList.basic**：基本 Emoji 列表（基于 UNICODE 12.0）
 - **EmojiList.allWithoutSkinTones**：不带肤色变体的全部 Emoji 列表
+- **EmojiList.Classic**：官方分类
 - **EmojiList.Animals**：动物列表
 - **EmojiList.Clothing**：服饰列表
 - **EmojiList.CountryFlags**：国旗列表
@@ -68,9 +79,18 @@ This project is licensed under the MIT License.
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/wuyu2015/EmojiListSwift.git", from: "1.0.0")
+    .package(url: "https://github.com/wuyu2015/EmojiListSwift.git", from: "1.0.3")
 ]
 ```
+
+### 或使用 Xcode 安装
+
+1. 打开你的 Xcode 项目。
+2. 选择 **File** -> **Swift Packages** -> **Add Package Dependency**。
+3. 在弹出的窗口中输入 EmojiList 的 GitHub 仓库地址：`https://github.com/wuyu2015/EmojiListSwift.git`。
+4. 选择所需的版本（例如 1.0.3）并完成安装。
+
+这样，你就可以在项目中使用 EmojiList 了。
 
 ## 许可证
 

@@ -1,5 +1,6 @@
 public enum EmojiList {
     public enum Animals {}
+    public enum Classic {}
     public enum Clothing {}
     public enum CountryFlags {}
     public enum Faces {}
