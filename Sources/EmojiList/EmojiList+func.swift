@@ -11,6 +11,11 @@ extension EmojiList {
         case .animalAll:
             return animalAll.shuffled()
             
+        case .beautifulBasic:
+            return beautifulBasics.shuffled()
+        case .beautifulAll:
+            return beautifulAll.shuffled()
+            
         case .clothingBasic:
             return clothingBasics.shuffled()
         case .clothingAll:
@@ -78,7 +83,12 @@ extension EmojiList {
         case .animalBasic:
             return animalBasics[Int.random(in: 0..<animalBasics.count)]
         case .animalAll:
-            return animalAll[Int.random(in: 0..<foodAll.count)]
+            return animalAll[Int.random(in: 0..<animalAll.count)]
+            
+        case .beautifulBasic:
+            return beautifulBasics[Int.random(in: 0..<beautifulBasics.count)]
+        case .beautifulAll:
+            return beautifulAll[Int.random(in: 0..<beautifulAll.count)]
             
         case .countryFlag:
             return countryFlags[Int.random(in: 0..<countryFlags.count)]

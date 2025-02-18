@@ -5,6 +5,8 @@ extension EmojiList {
         case animalAll
         case animalBasic
         case basic
+        case beautifulAll
+        case beautifulBasic
         case clothingAll
         case clothingBasic
         case countryFlag
