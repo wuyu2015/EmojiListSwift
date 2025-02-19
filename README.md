@@ -44,6 +44,15 @@ dependencies: [
 
 Now, you can use EmojiList in your project.
 
+## Example
+
+```swift
+import EmojiList
+
+print(EmojiList.Classic.Activities.Sport.basic)
+// ["⚽", "⚾", "🥎", "🏀", "🏐", "🏈", "🏉", "🎾", "🥏", "🎳", "🏏", "🏑", "🏒", "🥍", "🏓", "🏸", "🥊", "🥋", "🥅", "⛳", "⛸️", "🎣", "🎽", "🎿", "🛷", "🥌"]
+```
+
 ## License
 
 This project is licensed under the MIT License.
@@ -95,6 +104,15 @@ dependencies: [
 4. 选择所需的版本（例如 1.0.3）并完成安装。
 
 这样，你就可以在项目中使用 EmojiList 了。
+
+## 示例
+
+```swift
+import EmojiList
+
+print(EmojiList.Classic.Activities.Sport.basic)
+// ["⚽", "⚾", "🥎", "🏀", "🏐", "🏈", "🏉", "🎾", "🥏", "🎳", "🏏", "🏑", "🏒", "🥍", "🏓", "🏸", "🥊", "🥋", "🥅", "⛳", "⛸️", "🎣", "🎽", "🎿", "🛷", "🥌"]
+```
 
 ## 许可证
 
