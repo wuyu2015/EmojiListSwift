@@ -82,7 +82,7 @@ extension EmojiList.Classic.AnimalsAndNature {
         
         public static let all: [Character] = [
             "💐", "🌸", "💮", "🏵️", "🌹", "🥀", "🌺", "🌻", "🌼",
-            "🌷",
+            "🌷", "🪻",
         ]
     }
 

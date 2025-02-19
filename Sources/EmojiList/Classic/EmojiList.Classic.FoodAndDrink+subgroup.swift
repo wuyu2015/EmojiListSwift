@@ -50,7 +50,7 @@ extension EmojiList.Classic.Flags {
         ]
     }
 
-    public enum FoodWweet {
+    public enum FoodSweet {
         public static let basic: [Character] = all
         
         public static let all: [Character] = [
