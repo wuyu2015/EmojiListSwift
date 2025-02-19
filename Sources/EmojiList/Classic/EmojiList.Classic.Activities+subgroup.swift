@@ -18,7 +18,11 @@ extension EmojiList.Classic.Activities {
     }
 
     public enum Sport {
-        public static let basic: [Character] = all
+        public static let basic: [Character] = [
+            "⚽", "⚾", "🥎", "🏀", "🏐", "🏈", "🏉", "🎾", "🥏", "🎳",
+            "🏏", "🏑", "🏒", "🥍", "🏓", "🏸", "🥊", "🥋", "🥅", "⛳",
+            "⛸️", "🎣", "🎽", "🎿", "🛷", "🥌",
+        ]
         
         public static let all: [Character] = [
             "⚽", "⚾", "🥎", "🏀", "🏐", "🏈", "🏉", "🎾", "🥏", "🎳",
