@@ -30,7 +30,9 @@ extension EmojiList.Classic.TravelAndPlaces {
     }
 
     public enum PlaceReligious {
-        public static let basic: [Character] = all
+        public static let basic: [Character] = [
+            "⛪", "🕌", "🕍", "⛩️", "🕋",
+        ]
         
         public static let all: [Character] = [
             "⛪", "🕌", "🛕", "🕍", "⛩️", "🕋",
