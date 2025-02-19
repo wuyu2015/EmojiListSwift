@@ -8,6 +8,7 @@
 - **EmojiList.Classic**: Official categories.
 - **EmojiList.Animals**: A list of animal emojis.
 - **EmojiList.Balls**: A list of ball-shaped emojis.
+- **EmojiList.ChineseZodiac**: A list of Chinese Zodiac.
 - **EmojiList.Clothing**: A list of clothing emojis.
 - **EmojiList.CountryFlags**: A list of country flags.
 - **EmojiList.Faces**: A list of smiley faces and animal faces.
@@ -59,6 +60,7 @@ This project is licensed under the MIT License.
 - **EmojiList.Classic**：官方分类
 - **EmojiList.Animals**：动物列表
 - **EmojiList.Balls**：球形状的列表
+- **EmojiList.ChineseZodiac**：十二生肖
 - **EmojiList.Clothing**：服饰列表
 - **EmojiList.CountryFlags**：国旗列表
 - **EmojiList.Faces**：小黄脸和动物脸列表
