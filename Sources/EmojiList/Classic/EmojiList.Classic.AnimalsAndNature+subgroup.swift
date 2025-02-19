@@ -35,7 +35,7 @@ extension EmojiList.Classic.AnimalsAndNature {
     }
 
     public enum AnimalAmphibian {
-        public static let basic: all
+        public static let basic: [Character] = all
         
         public static let all: [Character] = [
             "🐸",
