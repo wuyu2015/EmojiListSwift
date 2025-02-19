@@ -29,6 +29,14 @@ final class PrintTests: XCTestCase {
         pr(EmojiList.Animals.basic.shuffled())
     }
     
+    func testBallsAll() {
+        pr(EmojiList.Balls.all)
+    }
+    
+    func testBallsBasic() {
+        pr(EmojiList.Balls.basic.shuffled())
+    }
+    
     func testClothingAll() {
         pr(EmojiList.Clothing.all)
     }
@@ -51,6 +59,14 @@ final class PrintTests: XCTestCase {
     
     func testFacesBasic() {
         pr(EmojiList.Faces.basic.shuffled())
+    }
+    
+    func testFoodsAll() {
+        pr(EmojiList.Foods.all)
+    }
+    
+    func testFoodsBasic() {
+        pr(EmojiList.Foods.basic.shuffled())
     }
     
     func testHouseholdAll() {
@@ -158,10 +174,10 @@ final class PrintTests: XCTestCase {
     }
     
     func testWeatherAll() {
-        XCTAssertEqual(c(EmojiList.Weather.all), 34)
+        XCTAssertEqual(c(EmojiList.Weather.all), 35)
     }
     
     func testWeatherBasic() {
-        XCTAssertEqual(c(EmojiList.Weather.basic), 34)
+        XCTAssertEqual(c(EmojiList.Weather.basic), 35)
     }
 }

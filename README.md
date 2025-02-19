@@ -7,6 +7,7 @@
 - **EmojiList.allWithoutSkinTones**: A list of all emojis without skin tone variations.
 - **EmojiList.Classic**: Official categories.
 - **EmojiList.Animals**: A list of animal emojis.
+- **EmojiList.Balls**: A list of ball-shaped emojis.
 - **EmojiList.Clothing**: A list of clothing emojis.
 - **EmojiList.CountryFlags**: A list of country flags.
 - **EmojiList.Faces**: A list of smiley faces and animal faces.
@@ -57,6 +58,7 @@ This project is licensed under the MIT License.
 - **EmojiList.allWithoutSkinTones**：不带肤色变体的全部 Emoji 列表
 - **EmojiList.Classic**：官方分类
 - **EmojiList.Animals**：动物列表
+- **EmojiList.Balls**：球形状的列表
 - **EmojiList.Clothing**：服饰列表
 - **EmojiList.CountryFlags**：国旗列表
 - **EmojiList.Faces**：小黄脸和动物脸列表
